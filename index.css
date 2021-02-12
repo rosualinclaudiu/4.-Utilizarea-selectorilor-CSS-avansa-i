@@ -1,0 +1,24 @@
+a {
+    color: green;
+}
+
+a[target] {
+    color: red;
+}
+
+#second-div > p:nth-child(even) {
+    color: red;
+}
+
+#second-div > p:nth-child(odd) {
+    color: blue;
+}
+
+h2 > p::after {
+    content: "NEW"
+    
+}
+
+body > p:hover {
+    font-style: italic;
+}
