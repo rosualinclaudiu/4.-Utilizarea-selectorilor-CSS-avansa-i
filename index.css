@@ -14,11 +14,11 @@ a[target] {
     color: blue;
 }
 
-h2 > p::after {
-    content: "NEW"
-    
+#first-div > p::after {
+    content: "NEW";
+    color: yellow;
 }
 
-body > p:hover {
+body > p:nth-of-type(3):hover {
     font-style: italic;
 }
